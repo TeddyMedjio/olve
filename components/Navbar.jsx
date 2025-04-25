@@ -1,0 +1,56 @@
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
+import Link from "next/link";
+import Button from "./Button";
+
+const navigation = [
+  {
+    name: "Our Services",
+    href: "/ourservices",
+  },
+  {
+    name: "About Us",
+    href: "/aboutus",
+  },
+  {
+    name: "Contact Us",
+    href: "/contactus",
+  },
+  {
+    name: "More",
+    href: "/more",
+  },
+];
+
+export default function Navbar() {
+  return (
+    <nav className="absolute top-5 left-1/2 -translate-x-1/2 -translate-y-1/2  z-50 mx-auto px-5 container max-w-[1285px] flex items-center justify-between mt-10">
+      <div className="flex items-center">
+        <a href="/" className="mr-10">
+          <Image src="/logoOlve.svg" height={42.21} width={112.53} alt="logo" />
+        </a>
+        <ul className="hidden lg:flex items-center gap-4 text-darkBlue">
+          {navigation.map((nav, indx) => (
+            <li key={indx}>
+              <Link href={nav.href}>{nav.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="space-x-4 hidden md:block">
+        <Link
+          href="/"
+          className="text-darkBlue inline-flex items-center gap-2 group"
+        >
+          Sign Up
+          <span className="border border-darkBlue p-2 rounded-full group-hover:rotate-45 transition-transform duration-500">
+            <ArrowTopRightIcon className="text-darkBlue text-5xl" size={50} />
+          </span>
+        </Link>
+
+        <Button text="Call us" />
+      </div>
+    </nav>
+  );
+}
