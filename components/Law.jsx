@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import CardTrois from "./CardTrois";
 
 export default function Law() {
   return (
@@ -58,6 +59,8 @@ export default function Law() {
           </Link>
         </div>
       </div>
+      {/* card3 */}
+      <CardTrois />
     </section>
   );
 }

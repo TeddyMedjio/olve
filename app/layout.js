@@ -9,6 +9,11 @@ const monoSans = localFont({
       style: "normal",
     },
     {
+      path: "./fonts/MonaSans-Light.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
       path: "./fonts/MonaSans-Medium.otf",
       weight: "500",
       style: "medium",

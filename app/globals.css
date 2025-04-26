@@ -26,8 +26,12 @@ p {
   font-size: min(6vw, 36px);
   line-height: 120%;
 }
+.light {
+  font-size: min(5vw, 28px);
+  line-height: 120%;
+}
 .subtitle {
-  font-size: min(5vw, 20px);
+  font-size: min(5vw, 19px);
   line-height: 150%;
 }
 

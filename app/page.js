@@ -1,6 +1,10 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Law from "@/components/Law";
+import Logos from "@/components/Logos";
 import Navbar from "@/components/Navbar";
+import Newsletter from "@/components/Newsletter";
+import Satisfied from "@/components/Satisfied";
 import Scrool from "@/components/Scrool";
 
 export default function Home() {
@@ -17,6 +21,10 @@ export default function Home() {
       <Hero />
       <Scrool />
       <Law />
+      <Satisfied />
+      <Logos />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
