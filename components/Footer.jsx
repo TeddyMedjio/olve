@@ -21,7 +21,7 @@ export default function Footer() {
       </div>
       <div className=" py-8 border-b border-[#8c8f9d61] flex items-center justify-between mb-10">
         <Link href="/" className="mr-10">
-          <Image src="/logoOlve.svg" height={42.21} width={112.53} alt="logo" />
+          <Image src="/logoOlve.png" height={42.21} width={112.53} alt="logo" />
         </Link>
         <ul className="flex items-center gap-4">
           <li>

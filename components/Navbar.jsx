@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="absolute top-5 left-1/2 -translate-x-1/2 -translate-y-1/2  z-50 mx-auto px-5 container max-w-[1285px] flex items-center justify-between mt-10">
       <div className="flex items-center">
         <a href="/" className="mr-10">
-          <Image src="/logoOlve.svg" height={42.21} width={112.53} alt="logo" />
+          <Image src="/logoOlve.png" height={42.21} width={112.53} alt="logo" />
         </a>
         <ul className="hidden lg:flex items-center gap-4 text-darkBlue">
           {navigation.map((nav, indx) => (
