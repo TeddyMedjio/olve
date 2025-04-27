@@ -17,8 +17,8 @@ export default function Scrool() {
           </div>
         </FadeUp>
         <FadeUp delay={0.3} duration={2}>
-          <div className="relative h-[541px] flex-1 min-w-[390px] flex flex-col justify-between">
-            <div className="w-full h-3/5 relative bg-[#ECF3FF] rounded-4xl">
+          <div className="relative min-w-[390px] h-[541px] flex-1 overflow-hidden flex flex-col justify-between">
+            <div className=" h-3/5 relative bg-[#ECF3FF] rounded-4xl">
               <Image
                 src="/IMG4.png"
                 alt="picture"
@@ -26,7 +26,7 @@ export default function Scrool() {
                 className="absolute object-contain"
               />
             </div>
-            <h3 className="bg-gradient-to-r from-[#0103FF] to-[#01E4FF] text-transparent bg-clip-text font-medium">
+            <h3 className="bg-gradient-to-r from-[#0103FF] to-[#01E4FF] text-transparent bg-clip-text font-medium max-w-[390px]">
               Defending Your Rights, Crafting Your Victory.
             </h3>
           </div>

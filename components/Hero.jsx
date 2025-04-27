@@ -6,7 +6,7 @@ import { FadeUp } from "./FadeUp";
 
 export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden ">
+    <section className="relative w-full overflow-hidden max-w-[1285px] mx-auto ">
       <Image
         src="/BGline.svg"
         alt="pattern background"
