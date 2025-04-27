@@ -20,7 +20,9 @@ export default function CardTrois() {
           </p>
         </div>
         <div className="max-w-[500px]">
-          <h2 className="text-darkBlue mb-5">Olve victorious Legal cases</h2>
+          <h2 className="text-darkBlue mb-5 font-medium">
+            Olve victorious Legal cases
+          </h2>
           <p>
             Discover the impressive case studies of our successful legal
             battles, where we have fought for constumers and smaller parties
@@ -52,7 +54,7 @@ export default function CardTrois() {
             alt="image"
             className="absolute mb-5 -top-4 -right-5 "
           />
-          <p className=" mt-24 light text-transparent bg-clip-text bg-gradient-to-r from-[#0103FF] to-[#01E4FF]">
+          <p className=" mt-24 light text-transparent bg-clip-text bg-gradient-to-r from-[#0103FF] to-[#01E4FF] font-medium">
             We fight for consumers
           </p>
         </div>

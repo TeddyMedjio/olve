@@ -21,7 +21,7 @@ export default function Law() {
             </div>
             <div className="flex flex-col md:flex-row md:items-end justify-between">
               <div className="space-y-2 max-w-[400px]">
-                <p className="titleCard text-darkBlue capitalize">
+                <p className="titleCard text-darkBlue capitalize font-medium">
                   estate planning and probate
                 </p>
                 <p className="mb-5">
@@ -50,10 +50,12 @@ export default function Law() {
               />
             </div>
             <div className="space-y-2 mb-5 lg:mb-10">
-              <p className="titleCard text-darkBlue capitalize">
+              <p className="titleCard text-darkBlue capitalize font-medium">
                 immigration law
               </p>
-              <p>We excel in advocating for consumers and smaller entities.</p>
+              <p className="">
+                We excel in advocating for consumers and smaller entities.
+              </p>
             </div>
             <Link
               href="/"

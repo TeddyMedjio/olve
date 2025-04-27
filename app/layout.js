@@ -4,7 +4,7 @@ import "./globals.css";
 const monaSans = localFont({
   src: [
     {
-      path: "./font/MonaSans-Medium.otf",
+      path: "./font/MonaSans-Regular.otf",
       weight: "400",
       style: "normal",
     },

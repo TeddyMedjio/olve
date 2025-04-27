@@ -17,7 +17,7 @@ export default function Hero() {
       <div className=" mt-40 lg:mt-20 mb-20 lg:mb-0 mx-auto px-5 container max-w-[1285px] flex items-center justify-between">
         <div className="max-w-[550px] space-y-4">
           <FadeUp delay={0.2} duration={0.7}>
-            <h1 className="text-darkBlue">
+            <h1 className="text-darkBlue font-medium">
               Navigating{" "}
               <span className="bg-gradient-to-r from-[#0103FF] to-[#01E4FF] text-transparent bg-clip-text">
                 legal waters

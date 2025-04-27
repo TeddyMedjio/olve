@@ -4,13 +4,13 @@ import React from "react";
 export default function Resources() {
   return (
     <div className="flex flex-col lg:flex-row lg:items-start gap-3">
-      <p className="text-darkBlue">Resources</p>
+      <p className="text-darkBlue font-medium">Resources</p>
       <ul className="space-y-2">
         <li>
           {" "}
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Events
           </Link>
@@ -18,7 +18,7 @@ export default function Resources() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Community
           </Link>
@@ -26,7 +26,7 @@ export default function Resources() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Social Media
           </Link>
@@ -34,7 +34,7 @@ export default function Resources() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Newsletter
           </Link>
@@ -42,7 +42,7 @@ export default function Resources() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Subscribe
           </Link>

@@ -26,7 +26,7 @@ export default function Scrool() {
                 className="absolute object-contain"
               />
             </div>
-            <h3 className="bg-gradient-to-r from-[#0103FF] to-[#01E4FF] text-transparent bg-clip-text">
+            <h3 className="bg-gradient-to-r from-[#0103FF] to-[#01E4FF] text-transparent bg-clip-text font-medium">
               Defending Your Rights, Crafting Your Victory.
             </h3>
           </div>

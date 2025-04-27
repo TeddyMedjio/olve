@@ -6,7 +6,7 @@ const logos = [{}];
 export default function Logos() {
   return (
     <div className="mb-10 md:mb-20">
-      <p className="uppercase text-center md:mb-10 text-[#8C8F9D]">
+      <p className="uppercase text-center md:mb-10 text-[#8C8F9D] font-medium">
         already won against big players
       </p>
       <div className="flex items-center justify-center gap-4">

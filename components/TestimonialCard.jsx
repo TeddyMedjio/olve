@@ -19,7 +19,7 @@ export default function TestimonialCard({ description, image, name, tittle }) {
         <div className="flex items-center gap-4">
           <Image src={image} width={55} height={55} alt="avatar" />
           <div>
-            <p className="text-darkBlue">{name}</p>
+            <p className="text-darkBlue font-medium">{name}</p>
             <p>{tittle}</p>
           </div>
         </div>

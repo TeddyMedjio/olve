@@ -4,13 +4,13 @@ import React from "react";
 export default function Userful() {
   return (
     <div className="flex flex-col lg:flex-row lg:items-start gap-3">
-      <p className="text-darkBlue">Userful Links</p>
+      <p className="text-darkBlue font-medium">Userful Links</p>
       <ul className="space-y-2">
         <li>
           {" "}
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             About Us
           </Link>
@@ -18,7 +18,7 @@ export default function Userful() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Contact Us
           </Link>
@@ -26,7 +26,7 @@ export default function Userful() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             FAQs
           </Link>
@@ -34,7 +34,7 @@ export default function Userful() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Terms of Service
           </Link>
@@ -42,7 +42,7 @@ export default function Userful() {
         <li>
           <Link
             href="/"
-            className="hover:underline transition-all duration-500 text-[#8C8F9D]"
+            className="font-medium hover:underline transition-all duration-500 text-[#8C8F9D]"
           >
             Privacy Policy
           </Link>

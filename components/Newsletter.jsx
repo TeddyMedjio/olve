@@ -14,7 +14,9 @@ export default function Newsletter() {
           alt="arrow icon"
           className="absolute -top-12 right-0 hidden lg:block"
         />
-        <h3 className="text-white">Contact Us for Legal Assistance</h3>
+        <h3 className="text-white font-medium">
+          Contact Us for Legal Assistance
+        </h3>
         <p className="text-white mt-5">
           Experience lawyers to fight for your rights.
         </p>
