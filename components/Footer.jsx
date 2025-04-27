@@ -60,7 +60,10 @@ export default function Footer() {
           </li>
         </ul>
         <span className="text-sm font-light">
-          © 2025 James Alonso. All rights reserved
+          © 2025 Design by James Alonso & Develop by{" "}
+          <span className="text-blue font-medium">
+            <Link href="https://www.medjio.me">medjio.me</Link>
+          </span>
         </span>
       </div>
     </footer>

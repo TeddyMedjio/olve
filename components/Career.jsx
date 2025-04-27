@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Career() {
   return (
-    <div className="flex items-start gap-3">
+    <div className="flex flex-col lg:flex-row lg:items-start gap-3">
       <p className="text-darkBlue">Careers</p>
       <ul className="space-y-2">
         <li>

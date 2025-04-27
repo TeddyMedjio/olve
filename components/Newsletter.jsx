@@ -12,13 +12,13 @@ export default function Newsletter() {
           width={490}
           height={308}
           alt="arrow icon"
-          className="absolute -top-12 right-0"
+          className="absolute -top-12 right-0 hidden lg:block"
         />
         <h3 className="text-white">Contact Us for Legal Assistance</h3>
         <p className="text-white mt-5">
           Experience lawyers to fight for your rights.
         </p>
-        <div className="flex items-center gap-8 mt-5">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-8 mt-5">
           <ButtonSecondary text="Our areas of Law" />
           <Link href="/" className="flex items-center gap-2 group text-white">
             New successes{" "}

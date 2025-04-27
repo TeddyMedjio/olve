@@ -1,7 +1,6 @@
 import React from "react";
 import TestimonialCard from "./TestimonialCard";
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
 
 const users = [
   {

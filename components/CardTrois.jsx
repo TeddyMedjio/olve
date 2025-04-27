@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function CardTrois() {
   return (
-    <div className="mt-5 rounded-4xl flex flex-col items-center md:flex-row md:justify-between">
+    <div className="mt-20 lg:mt-10 rounded-4xl flex flex-col items-center md:flex-row md:justify-between">
       {/* paragraph left */}
       <div className="space-y-5 flex-1">
         <div className="flex items-center gap-2">
@@ -27,7 +27,7 @@ export default function CardTrois() {
             against large organizations.
           </p>
         </div>
-        <div className="flex flex-col items-start md:items-center md:flex-row gap-4">
+        <div className="flex items-center gap-4">
           <Button text="Our areas of Law" />
           <Link
             href="/"
