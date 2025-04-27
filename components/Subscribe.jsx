@@ -19,7 +19,7 @@ export default function Subscribe() {
         </button>
       </form>
       <span className="text-xs text-[#8C8F9D]">
-        By subscribing you agree to our Privacy Policy.
+        By subscribing you agree to our Privacy Policy
       </span>
     </div>
   );
