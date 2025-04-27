@@ -23,7 +23,7 @@ export default function TestimonialCard({ description, image, name, tittle }) {
             <p>{tittle}</p>
           </div>
         </div>
-        <Image src="icon2.svg" width={26} height={20} alt="avatar" />
+        <Image src="Guillemet.svg" width={26} height={20} alt="avatar" />
       </div>
     </div>
   );

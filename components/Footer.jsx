@@ -8,8 +8,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto px-5 container max-w-[1285px] mb-10">
-      <div className="border-b border-[#8c8f9d61] flex flex-wrap items-start justify-between pb-20">
+    <footer className="mx-auto px-5 container max-w-[1285px] mb-5">
+      <div className="border-b border-[#8c8f9d61] flex flex-wrap items-start justify-between pb-10">
         {/* userful Links */}
         <Userful />
         {/* Career*/}
@@ -19,7 +19,7 @@ export default function Footer() {
         {/* Subscribe */}
         <Subscribe />
       </div>
-      <div className=" py-8 border-b border-[#8c8f9d61] flex items-center justify-between mb-10">
+      <div className=" py-5 border-b border-[#8c8f9d61] flex items-center justify-between mb-10">
         <Link href="/" className="mr-10">
           <Image src="/Olve.svg" height={42} width={112} alt="logo Olve" />
         </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col items-start md:flex-row md:items-center md:justify-between">
         <ul className="flex items-center gap-4 text-sm text-[#8C8F9D]">
           <li>
             <Link href="/">Privacy Policy</Link>
@@ -59,8 +59,8 @@ export default function Footer() {
             <Link href="/">Cookie Policy</Link>
           </li>
         </ul>
-        <span className="text-sm font-light">
-          © 2025 Design by James Alonso & Develop by{" "}
+        <span className="text-sm font-light mt-3 md:mt-0">
+          © 2025 Design by James & Develop by{" "}
           <span className="text-blue font-medium">
             <Link href="https://www.medjio.me">medjio.me</Link>
           </span>
