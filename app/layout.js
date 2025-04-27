@@ -1,20 +1,20 @@
 import { localFont } from "next/font/local";
 import "./globals.css";
 
-const monoSans = localFont({
+const monaSans = localFont({
   src: [
     {
-      path: "./fonts/MonaSans-Medium.otf",
+      path: "./font/MonaSans-Medium.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/MonaSans-Light.otf",
+      path: "./font/MonaSans-Light.otf",
       weight: "300",
       style: "normal",
     },
     {
-      path: "./fonts/MonaSans-Medium.otf",
+      path: "./font/MonaSans-Medium.otf",
       weight: "500",
       style: "medium",
     },
@@ -29,7 +29,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${monoSans.className} antialiased`}>{children}</body>
+      <body className={`${monaSans.className} antialiased`}>{children}</body>
     </html>
   );
 }
