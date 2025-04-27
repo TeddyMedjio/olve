@@ -9,7 +9,7 @@ export default function Law() {
     <section className="mb-20 mx-auto p-5 md:p-10 container max-w-[1285px] bg-[#f3f3f3] md:rounded-4xl">
       <div className="flex flex-col lg:flex-row  gap-5">
         {/* card1 */}
-        <FadeUp delay={0.3} duration={0.8}>
+        <FadeUp delay={0.4} duration={2}>
           <div className="flex-2 bg-white p-10 rounded-2xl w-full">
             <div className="relative h-[250px] w-full mb-5">
               <Image
@@ -39,7 +39,7 @@ export default function Law() {
           </div>
         </FadeUp>
         {/* card2 */}
-        <FadeUp delay={0.4} duration={0.8}>
+        <FadeUp delay={0.6} duration={2}>
           <div className="flex-1 bg-white p-10 rounded-2xl flex flex-col justify-center w-full">
             <div className="relative h-[250px] max-w-[400px] mb-5">
               <Image
