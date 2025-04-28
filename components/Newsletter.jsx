@@ -20,17 +20,19 @@ export default function Newsletter() {
         <p className="text-white mt-5">
           Experience lawyers to fight for your rights.
         </p>
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-8 mt-5">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 mt-5">
           <ButtonSecondary text="Our areas of Law" />
-          <Link href="/" className="flex items-center gap-2 group text-white">
+          <Link
+            href="/"
+            className="flex items-center gap-2 group text-white pl-5 md:pl-0"
+          >
             New successes{" "}
             <span className="group-hover:rotate-45 transition-transform duration-500">
               <Image
-                src="/arrow.svg"
+                src="/arrow_white.svg"
                 width={10}
                 height={10}
                 alt="arrow icon"
-                className="invert"
               />
             </span>
           </Link>

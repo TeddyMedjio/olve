@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
+import NavMobile from "./NavMobile";
 
 const navigation = [
   {
@@ -55,6 +56,7 @@ export default function Navbar() {
 
         <Button text="Call us" />
       </div>
+      <NavMobile />
     </nav>
   );
 }
