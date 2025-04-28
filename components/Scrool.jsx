@@ -5,7 +5,7 @@ import { FadeUp } from "./FadeUp";
 export default function Scrool() {
   return (
     <section className="lg:-mt-6 overflow-hidden mb-20 w-full pl-5 lg:px-0">
-      <div className="flex items-center lg:justify-center flex-nowrap gap-x-4 overflow-x-scroll lg:overflow-hidden w-full">
+      <div className="flex items-center lg:justify-center flex-nowrap gap-x-4 overflow-x-scroll overflow-hidden w-full">
         <FadeUp delay={0.2} duration={2}>
           <div className="relative min-w-[390px] h-[541px] flex-1 overflow-hidden rounded-4xl">
             <Image
